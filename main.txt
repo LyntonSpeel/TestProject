@@ -1,11 +1,13 @@
 #include <iostream>
 #include "getMax.txt"
+#include "getMin.txt"
 using namespace std;
 
 int main() {
   int avg(12);
-  int max(12);
+  int avgMax(12), avgMin(12);
 
-  max = getMax(avg);
+  avgMax = getMax(avg);
+  avgMin = getMin(avg);
   return 0;
 }
