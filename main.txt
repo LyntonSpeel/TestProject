@@ -3,6 +3,7 @@
 #include "getMin.txt"
 using namespace std;
 
+// Grant was here
 int main() {
   int avg(12);
   int avgMax(12), avgMin(12);
