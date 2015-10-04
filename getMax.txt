@@ -1,3 +1,8 @@
 int getMax(int value) {
-  return value*2;
+   if (value > 0) {
+     value *= 2;
+   } else 
+      value = 0; 
+
+return value;
 }
