@@ -2,10 +2,17 @@
 #include "getMax.txt"
 using namespace std;
 
+int getMin(int value);
+
 int main() {
   int avg(0);
-  int max(0);
+  int avgMax(0), avgMin(0);
 
-  max = getMax(avg);
+  avgMax = getMax(avg);
+  avgMin = getMin(avg);
   return 0;
+}
+
+int getMin(int value){
+  return value / 2;
 }
